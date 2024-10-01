@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techknights Symposium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="header">
+            <div class="heading">TECHKNIGHTS ASSOCIATION</div>
+            <div class="sub-heading">PRESENTS</div>
+        </div>
+        <ul class="navbar">
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#event">EVENT</a></li>
+            <li><a href="#register">REGISTER</a></li>
+        </ul>
+        <!-- <hr color="grey" size="15px"> -->
+        <div class="translucent"></div>
+    </nav>
+    <main>
+        <section class="home" id="about">
+            <h2 class="centered about-us">ABOUT US</h2>
+            <p class="centered home-txt">Department Of Computer Science And Business Systems</p>
+            <p class="centered home-txt">Presenting International Level Symposium On 5th October, 2024</p>
+            <p class="centered home-txt">"Tower Gen3"</p>
+            <br>
+            <p class="centered home-txt">We Have Planned To Conduct Technical Events As Well As </p>
+            <p class="centered home-txt"> Non-Technical Events With Exciting Prizes!!</p>
+            <br>
+            <p class="centered subtext home-txt">Techknights Association Welcomes You</p>
+            <p class="centered subtext home-txt">To Explore New Horizons>></p>
+
+            <div class="icons">
+                <i class="fa-brands fa-square-instagram fa-lg" style="color: #666666;"></i>
+                <i class="fa-brands fa-facebook fa-lg" style="color: #666666;"></i>
+                <i class="fa-brands fa-youtube fa-lg" style="color: #666666;"></i>
+            </div>
+            <p class="centered today-date"><i class="fa-regular fa-calendar-days"></i> 05/10/2024</p>
+            <p class="centered today-date space"><i class="fa-solid fa-clock"></i> 9:00am-4:00pm</p>
+        </section>
+
+        <section class="frontend-mentor" id="event">
+            <h2 class="centered fm-heading">FRONTEND MENTOR</h2>
+            <h3 class="centered subtext elevate">Unlock And Elevate Your Frontend Skills</h3>
+            <div class="content">
+                <div class="circle">
+                    <div class="circle-txt">
+                        "Frontend Mentor Is An Exciting Event <br>
+                        For Developers, <br>
+                        Where They Need To Code <br>
+                        A Given Web Design Page <br>
+                        Using HTML, Css, And JavaScript."
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="feedback" id="register">
+            <div class="feedback-cover">
+                <div class="feedback-box">
+                    <h2 class="heading register-here">REGISTER HERE:</h2>
+                    <p class="underlined-txt">FILL THIS FORM</p>
+                    <form action="">
+                        <label for="name" class="label-head">NAME</label>
+                        <input type="text" id="name" class="input-box">
+
+                        <label for="email" class="label-head">EMAIL</label>
+                        <input type="text" id="email" class="input-box">
+
+                        <label for="contactnum" class="label-head">CONTACT NUMBER</label>
+                        <input type="text" id="contactnum" class="input-box">
+
+                        <label for="college" class="label-head">COLLEGE</label>
+                        <input type="text" id="college" class="input-box">
+
+                        <label for="dept" class="label-head">DEPT</label>
+                        <input type="text" id="dept" class="input-box">
+
+                        <label for="year" class="label-head">YEAR</label>
+                        <div class="radio-group">
+                            <div class="unit"><input type="radio" name="year" id="1st-year"><label
+                                    for="1st-year">1st</label></div>
+                            <div class="unit"><input type="radio" name="year" id="2nd-year"><label
+                                    for="2nd-year">2nd</label></div>
+                            <div class="unit"><input type="radio" name="year" id="3rd-year"><label
+                                    for="3rd-year">3rd</label></div>
+                            <div class="unit"><input type="radio" name="year" id="4th-year"><label
+                                    for="4th-year">4th</label></div>
+                        </div>
+                        <label for="Gender" class="label-head">GENDER</label>
+                        <div class="radio-group">
+                            <div class="unit"><input type="radio" name="Gender" id="male"><label for="Male">Male</label>
+                            </div>
+                            <div class="unit"><input type="radio" name="Gender" id="female"><label
+                                    for="2nd-year">Female</label></div>
+                        </div>
+                        <label for="DOB" class="label-head">DOB</label>
+                        <input type="date" name="date" id="date" placeholder="Dy-My-Yyyy">
+
+
+
+                        <label for="Skills" class="label-head">SKILLS</label>
+                        <div class="radio-group">
+                            <div class="unit">
+                                <input type="checkbox" name="Skills" id="HTML"><label for="HTML">HTML</label>
+                            </div>
+                            <div class="unit">
+                                <input type="checkbox" name="Skills" id="CSS"><label for="CSS">CSS</label>
+                            </div>
+                            <div class="unit">
+                                <input type="checkbox" name="Skills" id="JavaScript"><label
+                                    for="JavaScript">JavaScript</label>
+                            </div>
+                        </div>
+                        <p class="reason">WHY JOINING THIS EVENT ?</p>
+                        <textarea placeholder="Reason For Joining This Event" rows="10px"></textarea>
+                        <button class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
